@@ -1,8 +1,9 @@
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=4
 
-inherit eutils git
+inherit eutils git-2
 
 DESCRIPTION="A browser plugin to manage Swedish BankID:s"
 HOMEPAGE="http://fribid.se"

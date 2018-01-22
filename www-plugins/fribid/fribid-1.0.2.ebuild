@@ -1,3 +1,4 @@
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=4
@@ -6,7 +7,7 @@ inherit eutils vcs-snapshot
 
 DESCRIPTION="A browser plugin to manage Swedish BankID:s"
 HOMEPAGE="http://fribid.se"
-SRC_URI="http://github.com/samuellb/${PN}/tarball/v${PV} -> ${P}.tar.gz"
+SRC_URI="https://github.com/samuellb/${PN}/tarball/v${PV} -> ${P}.tar.gz"
 
 LICENSE="MIT MPL GPL-2"
 SLOT="0"
